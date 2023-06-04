@@ -1,0 +1,7 @@
+#include<iostream>
+using namespace std;
+int main(){
+cout << 5;  // to print integer value
+cout << "Hey!"; //to print textual commands
+return 0;
+}
