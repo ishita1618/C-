@@ -20,8 +20,8 @@ int main()
         double area = pi * radius * radius ;
         
         // decalring string
-        string a = "Hello!";
-        string b = "How are you?";
+        std::string c = "Hello!";
+        std::string d = "How are you?";
        
         cout << length * width << endl;
         cout << 2 * length * width << endl;
@@ -34,8 +34,8 @@ int main()
         cout << area <<endl;
         
         //string datatype string must be surround by double quotes
-        cout << a;
-        cout << b;
+        cout << c;
+        cout << d;
         
         return 0;
     }
