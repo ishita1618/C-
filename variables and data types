@@ -1,4 +1,4 @@
-#include<iostream>
+/* #include<iostream>
  using namespace std;
 
 int main()
@@ -39,3 +39,18 @@ int main()
         
         return 0;
     }
+/*
+
+//bool type 
+#include <iostream>
+using namespace std;
+
+int main() {
+  bool x = true;
+  bool y = false;
+  cout << x << endl ;    //x and y need to be cout on separate lines
+  cout << y;  
+  
+  return 0;
+}
+
