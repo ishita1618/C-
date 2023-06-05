@@ -1,0 +1,17 @@
+#include<iostream>
+ using namespace std;
+
+int main()
+    {
+        // declaration of variables
+        int number = 5;
+        int length = 10;
+        int width = 8;   //storing data
+        int a = 10; //declare two variable a and b 
+        int b = 43;
+        cout << length * width << endl;
+        cout << 2 * length * width << endl;
+        cout << number << endl;
+        cout << "Addition of variables a and b is " << a + b;
+        return 0;
+    }
