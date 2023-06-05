@@ -5,13 +5,37 @@ int main()
     {
         // declaration of variables
         int number = 5;
+        
+        //storing data
         int length = 10;
-        int width = 8;   //storing data
-        int a = 10; //declare two variable a and b 
+        int width = 8;   
+        
+        //declare two variable a and b 
+        int a = 10; 
         int b = 43;
+        
+        //radius , pi has to be declared as a 'double' 
+        double pi = 3.14;
+        double radius = 8.9;     
+        double area = pi * radius * radius ;
+        
+        // decalring string
+        string a = "Hello!";
+        string b = "How are you?";
+       
         cout << length * width << endl;
         cout << 2 * length * width << endl;
+        
         cout << number << endl;
-        cout << "Addition of variables a and b is " << a + b;
+        
+        cout << "Addition of variables a and b is " << a + b <<endl;
+       
+        cout << "The Area of the given Circle is ";
+        cout << area <<endl;
+        
+        //string datatype string must be surround by double quotes
+        cout << a;
+        cout << b;
+        
         return 0;
     }
