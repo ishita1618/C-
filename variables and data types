@@ -49,8 +49,14 @@ int main() {
   bool x = true;
   bool y = false;
   cout << x << endl ;    //x and y need to be cout on separate lines
-  cout << y;  
+  cout << y<< endl;  
   
+  // negative numbers 
+  int number1 = -50;
+  int number2 = 40;
+  cout << number1 + number2 << endl; // adding negative number 
+  cout << number1 / number2 ;
   return 0;
 }
+
 
