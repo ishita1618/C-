@@ -1,1 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
 
+int main() {
+
+  string s;
+  
+  int a;           // declaring integer
+  
+  cin >> s;                     // it reads the data with extraction operator >>
+  
+   cin >> a;      // reading data
+   
+  cout << "Your name is: " << s; // it prints the output  with insertion operator <<
+ 
+  cout << "Your number is: " << a; // printing integer
+
+  return 0;
+}
