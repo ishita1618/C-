@@ -7,13 +7,25 @@ int main() {
   
   int a;           // declaring integer
   
+  int c, d;         // declaring to integer
+  
+  string x;         // declaring string variable x
+   
   cin >> s;                     // it reads the data with extraction operator >>
   
-   cin >> a;      // reading data
+  cin >> a;      // reading integer data
+   
+  cin >> c >> d;   // reading data from c and d
+  
+  cin >> x;       // reading string variable
    
   cout << "Your name is: " << s; // it prints the output  with insertion operator <<
  
   cout << "Your number is: " << a; // printing integer
 
+  cout << c << d << c + d;   // rinting the additon of c and d 
+  
+  cout << "Hello " << x;   
+  
   return 0;
 }
